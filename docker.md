@@ -7,7 +7,7 @@ The docker image is based on NVIDIA CUDA 12.3 and PyTorch 2.0, see [Dockerfile](
 **This is just an easy way for testing. Please find more information in the [notes](#notes).**
 
 1. Clone this repository
-2. Build the image with `docker compose build`
+2. Build the image with `docker compose build` 
 3. Run the docker container with `docker compose up`. Building the image takes some time.
 
 When you see the message  `Use the app with http://0.0.0.0:7865/` in the console, you can access the URL in your browser.
